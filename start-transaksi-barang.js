@@ -14,6 +14,5 @@ module.exports = {
         merge_logs: true,
         cwd: "/var/www/transaksi-barang/backend",
       },
-      
     ],
   };
