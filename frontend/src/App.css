@@ -1,0 +1,262 @@
+button {
+    border: none;
+}
+
+.button1 {
+    color: azure;
+    background-color: darkslategray;
+    width: 9em;
+    height: 3.5em;
+    border-radius: 0.8em;
+    box-shadow: none;
+    font-size: x-large;
+}
+
+.buttonPageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.buttonContainer {
+    margin: 0.8em 0 0.8em 0;
+}
+
+.transactionListContainer {
+    background-color: #343434;
+    border-top: 2px #343434 solid;
+    border-bottom: 2px #343434 solid;
+    width: 95vw;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 0.5em;
+
+}
+
+.transactionList {
+    display: grid;
+    grid-template-columns: 9fr 4fr 3fr;
+    flex-direction: row;
+    margin: 4px 4px 4px 4px;
+}
+
+.cellAlign {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    padding-left: 0.5em;
+    padding: 0.8em 0.5em;
+    margin: 0 2px;
+    border-radius: 0.3em;
+    font-size: 1.1em;
+}
+
+.buttonUpdateStatus {
+    display: block;
+    color: azure;
+    background-color: darkslategray;
+    width: 5em;
+    height: 2.5em;
+    border-radius: 0.3em;
+    box-shadow: none;
+    font-size: normal;
+    margin: auto;
+}
+
+.containerButtonUpdate {
+    width: 100%;
+    display: flex;
+}
+
+.containerForm {
+    background-color: #565656;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+    border-radius: 0.5em;
+    margin: 1em 0 2em 0;
+    padding: 2em;
+}
+
+.containerField {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-bottom: 0.8em;
+}
+
+
+.containerPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button2 {
+    display: block;
+    color: rgb(75, 75, 75);
+    background-color: rgb(84, 230, 230);
+    width: 7.5em;
+    height: 3em;
+    border-radius: 0.4em;
+    box-shadow: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em auto 0 auto;
+}
+
+.radioButton {
+    margin: 0.5em 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 0.4em;
+    font-size: 1.1em;
+}
+
+.modal-exit {
+    background-color: rgb(63, 197, 70);
+    color: rgb(224, 224, 224);
+    width: 4rem;
+    height: 4rem;
+    font-size: xx-large;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+}
+
+.containerStockPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerStockForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #343434;
+    width: 80vw;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.containerStockField {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#modalPayed {
+    background-color: rgb(38, 150, 38);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+}
+
+#modalNotPayed {
+    background-color: rgb(150, 38, 38);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.containerLaporan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.containerLaporan > .buttonC {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 2rem 0;
+}
+
+.buttonC > #button {
+    border-radius: 1rem;
+    width: 10rem;
+    height: 4rem;
+    margin: auto;
+    font-weight: bold;
+}
+.containerLaporan > .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #343434;
+    width: 80%;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.containerLaporan > .card > .part {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 2fr;
+    font-size: 1.5rem;
+    padding: 0.1\rem 0.5rem;
+}
+
+.part > label {
+    text-align: left;
+}
+
+.part > .value {
+    text-align: right;
+}
+
+#fieldLabel {
+    color: white;
+    font-size: 1.3em;
+}
+
+#inputTransaction {
+    border-radius: 0.3em;
+    background-color: white;
+    font-size: 1.4em;
+    border: none;
+}
+
+#backButton {
+    width: 90vw;
+    height: 5vh;
+    font-size: 1.7em;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    background-color: rgb(199, 67, 67);
+    color: white;
+}
+
+#inputStock {
+    width: 60%;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+}
