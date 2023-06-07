@@ -65,22 +65,22 @@ const buyerTypes = [
   {
     buyerTypeCode: "b1",
     buyerType: "Anggota",
-    price: "21000",
+    price: "24000",
   },
   {
     buyerTypeCode: "b2",
     buyerType: "Non-Anggota",
-    price: "23000",
+    price: "26000",
   },
   {
     buyerTypeCode: "b3",
     buyerType: "Mitra",
-    price: "20000",
+    price: "23000",
   },
   {
     buyerTypeCode: "b4",
     buyerType: "Koperasi",
-    price: "18500",
+    price: "20000",
   },
 ];
 
