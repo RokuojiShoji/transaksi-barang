@@ -34,7 +34,7 @@ db.sequelize
   .then(() => {
     Promise.all([
       buyerType.bulkCreate(buyerTypes, {
-        ignoreDuplicates: true,
+        updateOnDuplicate: ["price"],
       }),
       payment.bulkCreate(payments, {
         ignoreDuplicates: true,
