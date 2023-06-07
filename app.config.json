@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "transaksi-barang-FE",
+      "script": "npx",
+      "interpreter": "none",
+      "args": "serve /var/www/transaksi-barang/frontend/build -p 3000"
+    },
+    {
+      "name": "transaksi-barang-BE",
+      "script": "/var/www/transaksi-barang/backend/index.js"
+    }
+  ]
+}

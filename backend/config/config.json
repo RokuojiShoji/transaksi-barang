@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "uSS10nl1ne",
+    "password": "uSS10nl1n3",
     "database": "db_barang",
     "host": "127.0.0.1",
     "dialect": "mysql",
@@ -19,7 +19,7 @@
   },
   "production": {
     "username": "root",
-    "password": "uSS10nl1ne",
+    "password": "uSS10nl1n3",
     "database": "db_barang",
     "host": "127.0.0.1",
     "dialect": "mysql"
