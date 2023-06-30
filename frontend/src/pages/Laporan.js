@@ -4,6 +4,15 @@ import RadioButton from "../components/RadioButton";
 import { Link } from "react-router-dom";
 import Divider from "../components/Divider";
 
+function getCurrentDate () {
+  let newDate = new Date();
+  let date = newDate.getDate();
+  let month = newDate.getMonth() + 1;
+  let year  = newDate.getFullYear;
+  var indoDate = newDate.toLocaleDateString('id-ID')
+  return(indoDate)
+}
+
 function Laporan() {
   const [laporanType, setLaporanType] = useState();
   const [buyerTypes, setBuyerTypes] = useState([]);
@@ -15,6 +24,7 @@ function Laporan() {
   const currentMonth = currentDate.getMonth() + 1;
   const sqlDate = currentDate.toISOString().slice(0, 10);
   const sqlMonth = currentMonth.toString().padStart(2, "0");
+  const indoDate = getCurrentDate()
 
   const handleLaporan = (value) => {
     setLaporanType(value);
@@ -117,6 +127,7 @@ function Laporan() {
       {laporanType && (
         <div className="card">
           <h1 style={{margin: "1rem 0"}}>{"LAPORAN " + laporanTypeText}</h1>
+          <h4>{indoDate}</h4>
           <h2>Laba Kotor</h2>
           <div className="part">
             <div className="label">HPP</div>
